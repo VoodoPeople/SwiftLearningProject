@@ -24,7 +24,7 @@
 		2C91141F1F135CA900B21B56 /* ChapterCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChapterCell.xib; sourceTree = "<group>"; };
 		2C9114221F135DB500B21B56 /* ChapterModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChapterModel.swift; sourceTree = "<group>"; };
 		2C9114251F136AC200B21B56 /* Series.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Series.swift; sourceTree = "<group>"; };
-		2CB02CB51F0A95D200FF0950 /* Algirithm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Algirithm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CB02CB51F0A95D200FF0950 /* Algorithm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Algorithm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CB02CB81F0A95D200FF0950 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2CB02CBA1F0A95D200FF0950 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2CB02CBD1F0A95D200FF0950 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -66,7 +66,7 @@
 		2CB02CAC1F0A95D100FF0950 = {
 			isa = PBXGroup;
 			children = (
-				2CB02CB71F0A95D200FF0950 /* Algirithm */,
+				2CB02CB71F0A95D200FF0950 /* Algorithm */,
 				2CB02CB61F0A95D200FF0950 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -74,12 +74,12 @@
 		2CB02CB61F0A95D200FF0950 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2CB02CB51F0A95D200FF0950 /* Algirithm.app */,
+				2CB02CB51F0A95D200FF0950 /* Algorithm.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2CB02CB71F0A95D200FF0950 /* Algirithm */ = {
+		2CB02CB71F0A95D200FF0950 /* Algorithm */ = {
 			isa = PBXGroup;
 			children = (
 				2C9114241F136AA900B21B56 /* Utils */,
@@ -94,6 +94,7 @@
 				2CB02CCA1F0AAC6C00FF0950 /* Extentions.swift */,
 				2CD50DCA1F0F85240054F899 /* ConstantsFile.swift */,
 			);
+			name = Algorithm;
 			path = Algirithm;
 			sourceTree = "<group>";
 		};
@@ -117,9 +118,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2CB02CB41F0A95D200FF0950 /* Algirithm */ = {
+		2CB02CB41F0A95D200FF0950 /* Algorithm */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2CB02CC71F0A95D300FF0950 /* Build configuration list for PBXNativeTarget "Algirithm" */;
+			buildConfigurationList = 2CB02CC71F0A95D300FF0950 /* Build configuration list for PBXNativeTarget "Algorithm" */;
 			buildPhases = (
 				2CB02CB11F0A95D200FF0950 /* Sources */,
 				2CB02CB21F0A95D200FF0950 /* Frameworks */,
@@ -129,9 +130,9 @@
 			);
 			dependencies = (
 			);
-			name = Algirithm;
+			name = Algorithm;
 			productName = Algirithm;
-			productReference = 2CB02CB51F0A95D200FF0950 /* Algirithm.app */;
+			productReference = 2CB02CB51F0A95D200FF0950 /* Algorithm.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -151,7 +152,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2CB02CB01F0A95D100FF0950 /* Build configuration list for PBXProject "Algirithm" */;
+			buildConfigurationList = 2CB02CB01F0A95D100FF0950 /* Build configuration list for PBXProject "Algorithm" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -164,7 +165,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2CB02CB41F0A95D200FF0950 /* Algirithm */,
+				2CB02CB41F0A95D200FF0950 /* Algorithm */,
 			);
 		};
 /* End PBXProject section */
@@ -344,7 +345,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2CB02CB01F0A95D100FF0950 /* Build configuration list for PBXProject "Algirithm" */ = {
+		2CB02CB01F0A95D100FF0950 /* Build configuration list for PBXProject "Algorithm" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2CB02CC51F0A95D300FF0950 /* Debug */,
@@ -353,7 +354,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2CB02CC71F0A95D300FF0950 /* Build configuration list for PBXNativeTarget "Algirithm" */ = {
+		2CB02CC71F0A95D300FF0950 /* Build configuration list for PBXNativeTarget "Algorithm" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2CB02CC81F0A95D300FF0950 /* Debug */,

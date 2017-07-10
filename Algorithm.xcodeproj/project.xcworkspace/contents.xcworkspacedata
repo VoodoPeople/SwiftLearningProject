@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:Algirithm.xcodeproj">
+      location = "self:/Users/ozzy/Desktop/Projects/SwiftLearningProject/Algorithm.xcodeproj">
    </FileRef>
 </Workspace>
