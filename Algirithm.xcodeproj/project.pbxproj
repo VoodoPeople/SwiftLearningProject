@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C9114201F135CA900B21B56 /* ChapterCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C91141F1F135CA900B21B56 /* ChapterCell.xib */; };
+		2C9114231F135DB500B21B56 /* ChapterModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9114221F135DB500B21B56 /* ChapterModel.swift */; };
+		2C9114261F136AC200B21B56 /* Series.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C9114251F136AC200B21B56 /* Series.swift */; };
 		2CB02CB91F0A95D200FF0950 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB02CB81F0A95D200FF0950 /* AppDelegate.swift */; };
 		2CB02CBB1F0A95D200FF0950 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB02CBA1F0A95D200FF0950 /* ViewController.swift */; };
 		2CB02CBE1F0A95D200FF0950 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CB02CBC1F0A95D200FF0950 /* Main.storyboard */; };
 		2CB02CC01F0A95D200FF0950 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2CB02CBF1F0A95D200FF0950 /* Assets.xcassets */; };
 		2CB02CC31F0A95D200FF0950 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2CB02CC11F0A95D200FF0950 /* LaunchScreen.storyboard */; };
+		2CB02CCB1F0AAC6C00FF0950 /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB02CCA1F0AAC6C00FF0950 /* Extentions.swift */; };
+		2CD50DCB1F0F85240054F899 /* ConstantsFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD50DCA1F0F85240054F899 /* ConstantsFile.swift */; };
+		2CD50DCE1F0F867F0054F899 /* ChapterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD50DCD1F0F867F0054F899 /* ChapterCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2C91141F1F135CA900B21B56 /* ChapterCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChapterCell.xib; sourceTree = "<group>"; };
+		2C9114221F135DB500B21B56 /* ChapterModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChapterModel.swift; sourceTree = "<group>"; };
+		2C9114251F136AC200B21B56 /* Series.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Series.swift; sourceTree = "<group>"; };
 		2CB02CB51F0A95D200FF0950 /* Algirithm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Algirithm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CB02CB81F0A95D200FF0950 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2CB02CBA1F0A95D200FF0950 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +31,9 @@
 		2CB02CBF1F0A95D200FF0950 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2CB02CC21F0A95D200FF0950 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2CB02CC41F0A95D300FF0950 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2CB02CCA1F0AAC6C00FF0950 /* Extentions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
+		2CD50DCA1F0F85240054F899 /* ConstantsFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConstantsFile.swift; sourceTree = "<group>"; };
+		2CD50DCD1F0F867F0054F899 /* ChapterCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChapterCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +47,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2C9114211F135D9D00B21B56 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2C9114221F135DB500B21B56 /* ChapterModel.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		2C9114241F136AA900B21B56 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				2C9114251F136AC200B21B56 /* Series.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
 		2CB02CAC1F0A95D100FF0950 = {
 			isa = PBXGroup;
 			children = (
@@ -54,14 +82,36 @@
 		2CB02CB71F0A95D200FF0950 /* Algirithm */ = {
 			isa = PBXGroup;
 			children = (
+				2C9114241F136AA900B21B56 /* Utils */,
+				2C9114211F135D9D00B21B56 /* Model */,
+				2CD50DCC1F0F86250054F899 /* Cells */,
 				2CB02CB81F0A95D200FF0950 /* AppDelegate.swift */,
 				2CB02CBA1F0A95D200FF0950 /* ViewController.swift */,
 				2CB02CBC1F0A95D200FF0950 /* Main.storyboard */,
 				2CB02CBF1F0A95D200FF0950 /* Assets.xcassets */,
 				2CB02CC11F0A95D200FF0950 /* LaunchScreen.storyboard */,
 				2CB02CC41F0A95D300FF0950 /* Info.plist */,
+				2CB02CCA1F0AAC6C00FF0950 /* Extentions.swift */,
+				2CD50DCA1F0F85240054F899 /* ConstantsFile.swift */,
 			);
 			path = Algirithm;
+			sourceTree = "<group>";
+		};
+		2CD50DCC1F0F86250054F899 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				2CE959F71F13C13200D3C183 /* Chapter Cell */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		2CE959F71F13C13200D3C183 /* Chapter Cell */ = {
+			isa = PBXGroup;
+			children = (
+				2CD50DCD1F0F867F0054F899 /* ChapterCell.swift */,
+				2C91141F1F135CA900B21B56 /* ChapterCell.xib */,
+			);
+			name = "Chapter Cell";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,7 +146,7 @@
 				TargetAttributes = {
 					2CB02CB41F0A95D200FF0950 = {
 						CreatedOnToolsVersion = 8.3.1;
-						DevelopmentTeam = URR6XT6758;
+						DevelopmentTeam = 79E77Q3Z46;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -126,6 +176,7 @@
 			files = (
 				2CB02CC31F0A95D200FF0950 /* LaunchScreen.storyboard in Resources */,
 				2CB02CC01F0A95D200FF0950 /* Assets.xcassets in Resources */,
+				2C9114201F135CA900B21B56 /* ChapterCell.xib in Resources */,
 				2CB02CBE1F0A95D200FF0950 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,8 +188,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CD50DCE1F0F867F0054F899 /* ChapterCell.swift in Sources */,
+				2C9114231F135DB500B21B56 /* ChapterModel.swift in Sources */,
 				2CB02CBB1F0A95D200FF0950 /* ViewController.swift in Sources */,
 				2CB02CB91F0A95D200FF0950 /* AppDelegate.swift in Sources */,
+				2CB02CCB1F0AAC6C00FF0950 /* Extentions.swift in Sources */,
+				2CD50DCB1F0F85240054F899 /* ConstantsFile.swift in Sources */,
+				2C9114261F136AC200B21B56 /* Series.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,10 +319,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = URR6XT6758;
+				DEVELOPMENT_TEAM = 79E77Q3Z46;
 				INFOPLIST_FILE = Algirithm/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.boost.Algirithm;
+				PRODUCT_BUNDLE_IDENTIFIER = com.boost.Algo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -276,10 +332,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = URR6XT6758;
+				DEVELOPMENT_TEAM = 79E77Q3Z46;
 				INFOPLIST_FILE = Algirithm/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.boost.Algirithm;
+				PRODUCT_BUNDLE_IDENTIFIER = com.boost.Algo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -304,6 +360,7 @@
 				2CB02CC91F0A95D300FF0950 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
